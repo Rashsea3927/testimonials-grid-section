@@ -1,0 +1,13 @@
+---
+import clsx from 'clsx';
+
+interface Props {
+  className?: string;
+}
+
+const { className } = Astro.props;
+---
+
+<article class={clsx('shadow-card rounded-lg p-8', className)}>
+  <slot />
+</article>
