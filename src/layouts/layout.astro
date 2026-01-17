@@ -1,14 +1,15 @@
 ---
+import '@styles/global.css';
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<title>Astro + TailwindCSS</title>
-	</head>
-	<body>
-		<slot />
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" />
+    <title>Testimonials Grid Section | Frontend Mentor</title>
+  </head>
+  <body class="bg-white-100 font-barlow flex min-h-screen flex-col items-center justify-center py-18 antialiased sm:py-20">
+    <slot />
+  </body>
 </html>
